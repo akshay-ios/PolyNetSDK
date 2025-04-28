@@ -20,10 +20,8 @@ Go to File → Add Packages.
 
 Enter the URL of this repository:
 
-arduino
-Copy
-Edit
-https://github.com/your_username/PolyNetPackage.git
+https://github.com/akshay-ios/PolyNetSDK.git
+
 Select the version you want and add it to your project.
 
 Usage
