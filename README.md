@@ -27,10 +27,7 @@ Select the version you want and add it to your project.
 # Usage
 After importing the package, you can directly start using the PolyNetSDK functionalities in your project.
 
-swift
-Copy
-Edit
-import PolyNetPackage
+import PolyNet
 All the necessary dependencies like Starscream, SwiftProtobuf, and WebRTC are already bundled inside the package.
 
 # Project Structure
