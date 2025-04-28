@@ -1,5 +1,5 @@
-# PolyNetSDK
-<p align="center"> <img src="https://your-image-link-here.com/banner.png" alt="PolyNetPackage Banner" width="600" /> </p>
+# 📦 PolyNetSDK XCFramework Integration
+
 PolyNetSDK Package is a Swift Package that bundles the PolyNetSDK, WebRTC (for iOS and tvOS), and adds Starscream and SwiftProtobuf as dependencies.
 
 You can integrate it easily using Swift Package Manager (SPM).
@@ -19,6 +19,7 @@ Open your project in Xcode.
 Go to File → Add Packages.
 Enter the repository URL:
 [https://github.com/your_username/PolyNetPackage.git](https://github.com/akshay-ios/PolyNetSDK.git)
+
 Choose the version 5.2.0 and add it to your project.
 
 # 🛠 Usage
