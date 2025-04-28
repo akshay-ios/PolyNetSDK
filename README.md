@@ -37,15 +37,21 @@ All frameworks and dependencies (PolyNetSDK, WebRTC, Starscream, SwiftProtobuf) 
 # 🗂 Project Structure
 Component | Description
 
-PolyNetSDK.xcframework | Main SDK
-
-WebRTC_iOS.xcframework | WebRTC for iOS devices
-
-WebRTCtvOS.xcframework | WebRTC for tvOS devices
+PolyNetSDK.xcframework | Main SDK supporting iOS and tvOS platforms
 
 Starscream | WebSocket library
 
 SwiftProtobuf | Protocol Buffers support
+
+The PolyNetSDK.xcframework includes the following slices:
+
+ios-arm64
+
+ios-arm64_x86_64-simulator
+
+tvos-arm64
+
+tvos-x86_64-simulator
 
 📷 Preview
 # 📄 License
@@ -60,3 +66,5 @@ Thank you for using PolyNetSDK! 🚀
 # 📌 Notes
 
 Make sure your deployment target is set to iOS 12+ or tvOS 12+ in your app settings.
+
+The PolyNetSDK.xcframework includes all necessary binaries; no additional setup is required for WebRTC.
