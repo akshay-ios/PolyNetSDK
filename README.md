@@ -53,18 +53,16 @@ tvos-arm64
 
 tvos-x86_64-simulator
 
-📷 Preview
 # 📄 License
 This project is licensed under 
 
 # Copyright (c) 2025 System73 (R)
-# ✨ Support
 
+# ✨ Support
 For issues, suggestions, or contributions, feel free to open an issue or submit a pull request!
 Thank you for using PolyNetSDK! 🚀
 
 # 📌 Notes
-
 Make sure your deployment target is set to iOS 12+ or tvOS 12+ in your app settings.
 
 The PolyNetSDK.xcframework includes all necessary binaries; no additional setup is required for WebRTC.
