@@ -15,20 +15,20 @@ let package = Package(
     ],
     dependencies: [
         //.package(url: "https://github.com/apple/swift-protobuf.git", exact: "1.26.0"),
-       // .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.8")
+        // .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.8")
     ],
     targets: [
         .binaryTarget(
-            name: "PolyNetSDKBinary",
-            url:"https://artifacts.s73cloud.com/repository/maven-s73-releases/s73-polynet-plat/polynet-ios-swift-package-manager/5.2.0/polynet-ios-swift-package-manager-5.2.0.zip",
-            checksum: "2b1b191435795536153a3fc4ffaa4a2746ac86208d26a1610c7dc326e8c31a71"
+            name: "PolyNetSDK",
+            url:"https://artifacts.s73cloud.com/repository/maven-s73-releases/s73-polynet-plat/polynet-ios-swift-package-manager/5.2.0.1.06.05.2025/polynet-ios-swift-package-manager-5.2.0.1.06.05.2025.zip",
+            checksum:"37793a111f4fbb9a0957dd9939838aaae03b73e502b170a070c13e99420c0577"
         ),
-        .target(
-                    name: "PolyNetSDK",
-                    dependencies: [
-                        "PolyNetSDKBinary"
-                    ]
-                )
+//        .target(
+//            name: "PolyNetSDK",
+//            dependencies: [
+//                "PolyNetSDKBinary"
+//            ]
+//        )
     ]
 )
 
